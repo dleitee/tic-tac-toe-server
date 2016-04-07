@@ -1,0 +1,39 @@
+{
+  "name": "tic-tac-toe-server",
+  "version": "0.0.1",
+  "description": "A tic tac toe server.",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-fs": "^0.1.0",
+    "chai-http": "^2.0.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.15",
+    "redis": "^2.5.3",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dleitee/tic-tac-toe-server.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "server",
+    "node"
+  ],
+  "author": "Daniel Leite de Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dleitee/tic-tac-toe-server/issues"
+  },
+  "homepage": "https://github.com/dleitee/tic-tac-toe-server#readme"
+}
